@@ -9,3 +9,9 @@ if response.status_code == 200:
             'data-label': 'Офіційний курс'
         }
     )
+    print('Офіційний курс')
+    print('USD =',soup_list[7].text)
+    print('EUR =',soup_list[8].text)
+    print('PLN =',soup_list[11].text)
+    print('CAD =',soup_list[13].text)
+    print('AUD =',soup_list[0].text)
